@@ -19,3 +19,20 @@
 
 * [**005_Distance_in_2D**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_1/005_Distance_in_2D.py) - Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 </details>
+
+<details>
+<summary>Урок 2. Знакомство с Python. Продолжение</summary>
+
+---
+
+* [**001_Sum_of_digits**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/001_Sum_of_digits.py) - Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
+
+* [**002_Product_from_1_to_N**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/002_Product_from_1_to_N.py) - Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
+
+* [**003_A_sequence_of_N_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/003_A_sequence_of_N_numbers.py) - Задайте список из n чисел последовательности (1+1/n)^n и выведите на экран их сумму,
+округлённую до трёх знаков после точки.
+
+* [**004_N_product_from_a_to_b**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/004_N_product_from_a_to_b.py) - Задайте список из N элементов, заполненных числами из промежутка [-N, N]. Найдите произведение элементов на позициях a и b. Значения N, a и b вводит пользователь с клавиатуры.
+
+* [**005_Shuffling_the_list**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/005_Shuffling_the_list.py) - Реализуйте алгоритм перемешивания списка.
+</details>
