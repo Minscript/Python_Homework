@@ -44,7 +44,7 @@
 
 * [**001_Amount_in_odd_positions**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/001_Amount_in_odd_positions.py) - Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
 
-* [**002_002_Product_of_pairs_of_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/002_Product_of_pairs_of_numbers.py) - Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
+* [**002_Product_of_pairs_of_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/002_Product_of_pairs_of_numbers.py) - Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 
 * [**003_Difference_in_fractions**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/003_Difference_in_fractions.py) - Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 
