@@ -29,10 +29,26 @@
 
 * [**002_Product_from_1_to_N**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/002_Product_from_1_to_N.py) - Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
 
-* [**003_A_sequence_of_N_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/003_A_sequence_of_N_numbers.py) - Задайте список из n чисел последовательности (1+1/n)^n и выведите на экран их сумму,
-округлённую до трёх знаков после точки.
+* [**003_A_sequence_of_N_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/003_A_sequence_of_N_numbers.py) - Задайте список из n чисел последовательности 
+(1+1/n)^n и выведите на экран их сумму, округлённую до трёх знаков после точки.
 
 * [**004_N_product_from_a_to_b**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/004_N_product_from_a_to_b.py) - Задайте список из N элементов, заполненных числами из промежутка [-N, N]. Найдите произведение элементов на позициях a и b. Значения N, a и b вводит пользователь с клавиатуры.
 
 * [**005_Shuffling_the_list**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_2/005_Shuffling_the_list.py) - Реализуйте алгоритм перемешивания списка.
+</details>
+
+<details>
+<summary>Урок 3. Данные, функции и модули в Python.</summary>
+
+---
+
+* [**001_Amount_in_odd_positions**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/001_Amount_in_odd_positions.py) - Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
+
+* [**002_002_Product_of_pairs_of_numbers**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/002_Product_of_pairs_of_numbers.py) - Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
+
+* [**003_Difference_in_fractions**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/003_Difference_in_fractions.py) - Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
+
+* [**004_Decimal_to_binary**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/004_Decimal_to_binary.py) - Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+
+* [**005_Fibonacci**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/005_Fibonacci.py) - Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 </details>
