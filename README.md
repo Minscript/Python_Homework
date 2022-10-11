@@ -52,3 +52,18 @@
 
 * [**005_Fibonacci**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_3/005_Fibonacci.py) - Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 </details>
+<details>
+<summary>Урок 4. Данные, функции и модули в Python. Продолжение.</summary>
+
+---
+
+* [**001_Pi_to_d**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_4/001_Pi_to_d.py) - Вычислить число π c заданной точностью d.
+
+* [**002_Prime_factors_number**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_4/002_Prime_factors_number.py) - Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
+
+* [**003_Hate_repeat**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_4/003_Hate_repeat.py) - Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
+
+* [**004_Polynomial_degree_k**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_4/Task_004/004_Polynomial_degree_k.py) - Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
+
+* [**005_Sum_polynominal**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_4/Task_005/005_Sum_polynominal.py) - Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов. Коэффициенты могут быть как положительными, так и отрицательными. Степени многочленов могут отличаться.
+</details>

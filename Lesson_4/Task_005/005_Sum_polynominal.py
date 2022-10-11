@@ -6,20 +6,24 @@ from os import system
 from random import randint
 system("cls")
 
+
 # Функция сохранения в файл
-def write_file(string):
-    with open('Lesson_4/Task_005/poly1.txt', 'w') as data:
+def write_file(file, string):
+    with open(file, 'w') as data:
         data.write(string)
+
 
 # Функция рандомизации числа
 def rnd():
     return randint(0,100)
 
+
 # Создание многочлена
 def create_polynominal(k):
     lst = [rnd() for i in range(k+1)]
     return lst
-    
+
+
 # Содержание файла
 def create_string(sp):
     lst= sp[::-1]
@@ -42,6 +46,7 @@ def create_string(sp):
                 wr += ' = 0'
     return wr
 
+
 # Получение степени многочлена
 def sq_poly(k):
     if 'x^' in k:
@@ -53,6 +58,7 @@ def sq_poly(k):
         num = -1
     return num
 
+
 # Получение коэффицента члена многочлена
 def k_poly(k):
     if 'x' in k:
@@ -60,7 +66,8 @@ def k_poly(k):
         num = int(k[:i])
     return num
 
-# разбор многочлена и получение его коэффициентов
+
+# Разбор многочлена и получение его коэффициентов
 def calc_poly(st):
     st = st[0].replace(' ', '').split('=')
     st = st[0].split('+')
@@ -85,9 +92,7 @@ def calc_poly(st):
     return lst
     
 
-
 # Cоздание двух файлов
-
 k1 = int(input("Введите натуральную степень для 1 файла\nk = "))
 k2 = int(input("Введите натуральную степень для 2 файла\nk = "))
 koef1 = create_polynominal(k1)
@@ -97,14 +102,10 @@ write_file("Lesson_4/Task_005/poly1.txt", create_string(koef1))
 write_file("Lesson_4/Task_005/poly2.txt", create_string(koef2))
 
 # Нахождение суммы многочлена
-
 with open('Lesson_4/Task_005/poly1.txt', 'r') as data:
     st1 = data.readlines()
 with open('Lesson_4/Task_005/poly2.txt', 'r') as data:
     st2 = data.readlines()
-
-print(f"Первый многочлен {st1}")
-print(f"Второй многочлен {st2}")
 
 lst1 = calc_poly(st1)
 lst2 = calc_poly(st2)
@@ -129,4 +130,7 @@ write_file("Lesson_4/Task_005/res.txt", create_string(lst_new))
 with open('Lesson_4/Task_005/res.txt', 'r') as data:
     st3 = data.readlines()
 
-print(f"Результат: {st3}")
+print(f"Результат записан в файл!")
+
+# Честно, очень плохо шарю за все эти многочлены...
+# Сам не понимаю, сделал ли всё правильно или нет. Выводит вроде всё так как планировалось.
