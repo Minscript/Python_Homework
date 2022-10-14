@@ -1,10 +1,10 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
-from itertools import count
 from os import system
 system("cls")
 
 text = "abaa111z22qwerrrtt"
+print(f"Вводный текст: {text}\n")
 
 def zipping(f_or_t, type):
     simbol = []
@@ -26,13 +26,24 @@ def zipping(f_or_t, type):
         return simbol
     if type == "amount":
         return amount
-            
+
+
 simbol = zipping(text, "simbol")
 amount = zipping(text, "amount")
 
+
 def print_zipping(si, am):
-    print("Итоги сжатия [символ, кол-во]", end="")
+    print("Итоги сжатия [символ, кол-во]: ", end="")
     for i in range(len(si)):
         print(f"{si[i]}:{am[i]} ", end="")
 
+
 print_zipping(simbol, amount)
+
+
+def unzipping(si, am):
+    print("\n\nИтог восстановления данных: ", end="")
+    for i in range(len(si)):
+        print(f"{si[i]*am[i]}", end="")
+
+unzipping(simbol, amount)
