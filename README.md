@@ -90,3 +90,19 @@ b) Подумайте как наделить бота "интеллектом"
 
 * **Задание 5\* - ⚠ Не выполнено** - Дан список чисел. Создайте список, в который попадают числа, описываемые возрастающую последовательность. Порядок элементов менять нельзя.
 </details>
+<details>
+<summary>Урок 6. Ускоренная обработка данных: lambda, filter, map, zip, enumerate, list comprehension. Продолжение.</summary>
+
+---
+>⚠ Предложить улучшения кода для четырёх уже решённых задач из семинаров №2-5 с помощью использования: lambda, filter, map, zip, enumerate, list comprehension
+>**Все задачи решены с данным правилом!**
+
+
+* [**001_Sum_of_digits**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_6/001_Sum_of_digits.py) - Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
+
+* [**002_Product_from_1_to_N**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_6/002_Product_from_1_to_N.py) - Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
+
+* [**003_Amount_in_odd_positions**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_6/003_Amount_in_odd_positions.py) - Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
+
+* [**004_N_product_from_a_to_b**](https://github.com/Minscript/Python_Homework/blob/master/Lesson_6/004_N_product_from_a_to_b.py) - Задайте список из N элементов, заполненных числами из промежутка [-N, N]. Найдите произведение элементов на позициях a и b. Значения N, a и b вводит пользователь с клавиатуры.
+</details>
